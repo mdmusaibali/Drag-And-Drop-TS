@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/styles.css" />
     <script defer src="src/index.ts"></script>
+    <!-- remove before going -->
+    <!-- <script defer src="src/index.js"></script> -->
   </head>
 
   <body>
     <template id="project-input">
-      <form>
+      <form id="user-input">
         <div class="form-control">
           <label for="title">Title</label>
           <input type="text" id="title" />
@@ -28,7 +30,7 @@
       <li></li>
     </template>
     <template id="project-list">
-      <section class="projects">
+      <section class="projects" id="user-input">
         <header>
           <h2></h2>
         </header>
