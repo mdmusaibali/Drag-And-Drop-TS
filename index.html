@@ -10,7 +10,7 @@
 
   <body>
     <template id="project-input">
-      <form id="user-input">
+      <form>
         <div class="form-control">
           <label for="title">Title</label>
           <input type="text" id="title" />
@@ -27,7 +27,11 @@
       </form>
     </template>
     <template id="single-project">
-      <li></li>
+      <li draggable="true">
+        <h2></h2>
+        <h3></h3>
+        <p></p>
+      </li>
     </template>
     <template id="project-list">
       <section class="projects" id="user-input">
